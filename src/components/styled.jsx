@@ -16,7 +16,7 @@ export const GlobalStyle = createGlobalStyle`
 
 export const Header = styled.header`
 width: 15vw;
-background-color: #0a0c0c;
+background-color: #7deeb9;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -35,7 +35,7 @@ align-items: center;
 
 export const BoxLogo = styled.div`
 
- /* border: solid 1px gold;  */
+ 
  height: 38vh;
 width: 100%;
 display: flex;
