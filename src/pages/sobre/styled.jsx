@@ -44,12 +44,11 @@ p{
 @media (max-width: 500px) {
     width: 100%;
     height: 100vh;
-
-}
-img{
+    img{
     height: 10vh;
     width: 10vw;
-}
+    }}
+
 `
 export const Box1 = styled.div`
 width: 80%;
