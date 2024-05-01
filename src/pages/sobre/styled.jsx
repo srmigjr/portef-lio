@@ -18,7 +18,11 @@ display: flex;
 
 @media (max-width: 500px) {
     flex-direction: column;
+    width: 100%;
+    height: 100%;
+
 }
+
 `
 export const Box = styled.section`
 ${center}
@@ -37,8 +41,15 @@ p{
     font-size: 25px;
     color: white;
 }
+@media (max-width: 500px) {
+    width: 100%;
+    height: 100vh;
 
-
+}
+img{
+    height: 10vh;
+    width: 10vw;
+}
 `
 export const Box1 = styled.div`
 width: 80%;
@@ -47,12 +58,19 @@ display: flex;
 align-items: center;
 flex-direction: column;
 justify-content: space-evenly;
+@media (max-width: 500px) {
+    width: 100%;
+    height: 30vh;
 
-
+}
 `
 export const Box2 = styled.div`
 ${center}
 width: 50%;
 justify-content: space-evenly;
+@media (max-width: 500px) {
+    width: 100%;
+    height: 60vh;
 
+}
 `

@@ -31,7 +31,10 @@ img{
     width: 20vw;
     border-radius: 50%;
 }
-
+@media (max-width: 500px) {
+    width: 100%;
+    height: 100vh;
+}
 `
 export const Box2 = styled.div`
 width: 50%;
@@ -52,5 +55,8 @@ p{
     color: white;
 }
 
-
+@media (max-width: 500px) {
+    width: 100%;
+    height: 100vh;
+}
 `

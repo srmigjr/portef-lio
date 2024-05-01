@@ -29,7 +29,7 @@ export default function Projetos() {
           </div>
           <div>
           <a href='https://desafio03vnw.vercel.app/'><img src={noritmo} alt="" /></a>
-            <h2>projeto4</h2>
+            <h2>No ritmo</h2>
           </div>
          
          </Carrosel>

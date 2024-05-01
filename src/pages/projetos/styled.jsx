@@ -30,6 +30,12 @@ h2{
     color: white;
 }
 
+@media (max-width: 500px) {
+    width: 100%;
+    height: 100vh;
+}
+
+
 `
 
 export const BoxImg = styled.div`
@@ -45,5 +51,19 @@ img{
     width: 35vw;
     height: 50vh;
 }
+
+
+
+@media (max-width: 500px) {
+    width: 100%;
+    height: 30vh;
+    
+
+img{
+    height: 20vh;
+    width: 40vw;
+}
+}
+
 
 `
