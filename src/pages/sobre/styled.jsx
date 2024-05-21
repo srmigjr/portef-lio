@@ -58,8 +58,9 @@ align-items: center;
 flex-direction: column;
 justify-content: space-evenly;
 @media (max-width: 500px) {
+    
     width: 100%;
-    height: 30vh;
+    height: 80vh;
 
 }
 `
@@ -68,8 +69,9 @@ ${center}
 width: 50%;
 justify-content: space-evenly;
 @media (max-width: 500px) {
+    
     width: 100%;
-    height: 60vh;
+    height: 40vh;
 
 }
 `

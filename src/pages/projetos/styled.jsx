@@ -61,7 +61,7 @@ img{
 
 img{
     height: 20vh;
-    width: 40vw;
+    width: 60vw;
 }
 }
 
