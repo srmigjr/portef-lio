@@ -22,9 +22,9 @@ export default function Header() {
             </ul>
         </S.BoxMenu>
         <S.BoxIcon>
-          <a href="www.linkedin.com/in/miguel-junior-a11b95208"><img src={linkedin} alt="" /></a>
+          <a href="https://www.linkedin.com/in/migueljrs/"><img src={linkedin} alt="" /></a>
           <a href="https://github.com/srmigjr"><img src={git} alt="" /></a>
-          <a href="https://desafio03vnw.vercel.app/"><img src={face} alt="" /></a>
+          <a href="https://www.linkedin.com/in/migueljrs/"><img src={face} alt="" /></a>
         </S.BoxIcon>
 
     </S.Header>
